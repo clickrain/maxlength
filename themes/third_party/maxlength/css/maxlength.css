@@ -1,0 +1,51 @@
+.maxlengthblock {
+	display: block;
+	position: relative;
+}
+.maxlengthblock input {
+}
+
+.maxlengthblock .counteroverflow {
+	font-size: 80%;
+	line-height: 14px;
+	overflow: hidden;
+	position: absolute;
+	right: 4px;
+	bottom: -15px;
+}
+.maxlengthblock .counter {
+	border: 1px solid #aaa;
+	border-top: none;
+	border-radius: 0 0 8px 8px;
+	height: 14px;
+	width: 30px;
+	text-align: center;
+	display: block;
+	background: #fff;
+
+	color: #666;
+
+	-webkit-transform: translate(0, -100%);
+	transform: translate(0, -100%);
+	-webkit-transition: 0.4s -webkit-transform;
+	transition: 0.4s transform;
+}
+.maxlengthblock.focused .counter,
+.maxlengthblock.overrun .counter {
+	-webkit-transform: translate(0, 0);
+	transform: translate(0, 0);
+}
+.maxlengthblock.level1 .counter {
+	color: #990000;
+}
+.maxlengthblock.level2 .counter {
+	color: #bb0000;
+}
+.maxlengthblock.level3 .counter {
+	color: #ff0000;
+}
+.maxlengthblock.overrun .counter {
+	color: #ffffff;
+	background: #880000;
+	border-color: #880000;
+}
