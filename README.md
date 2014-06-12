@@ -6,6 +6,9 @@ reaching its maximum length.
 
 ![Indicator examples][img]
 
+Max Length will augment all Text Input types and any other inputs with a
+maxlength attribute with this functionality. No setup. No configuration.
+
 ## A note about support
 
 While we have incentive to keep this project working because we use it
