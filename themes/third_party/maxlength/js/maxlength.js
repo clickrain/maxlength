@@ -125,6 +125,8 @@
 				var maxlength = parseInt(item.attr('data-maxlength'), 10);
 				if (item.val().length > maxlength) {
 					allowSubmit = false;
+					var parentTab = item.closest('.main_tab');
+					tab_focus(parentTab.attr('id'));
 					item.focus();
 					return false;
 				}
