@@ -3,7 +3,7 @@
 class Maxlength_acc {
 	var $name = 'Max Length';
 	var $id = 'maxlength';
-	var $version = '1.0.0-alpha';
+	var $version = '1.0.0';
 	var $settings_exist = 'n';
 	var $docs_url = 'https://github.com/click-rain/maxlength';
 	var $description = 'Show and enforce the maximum length of a standard text field.';
