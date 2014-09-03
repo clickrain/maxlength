@@ -12,6 +12,7 @@
 	position: absolute;
 	right: 4px;
 	bottom: -15px;
+	z-index: 1;
 }
 .maxlengthblock .counter {
 	border: 1px solid #aaa;
